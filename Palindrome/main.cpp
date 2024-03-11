@@ -20,7 +20,6 @@ string checker(string s, vector<int> starts, vector<int> ends, vector<int>subs) 
             if (cnt & 1)odds++;
         }
         int need = odds / 2;
-        if ((odds & 1) && (r - l + 1) % 2 == 0)need++;
         ans += need > subs[i] ? "0" : "1";
     }
     return ans;

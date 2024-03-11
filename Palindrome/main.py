@@ -17,8 +17,6 @@ def checker(s, starts, ends, subs):
             if cnt & 1:
                 odds += 1
         need = odds // 2
-        if odds & 1 and (r - l + 1) % 2 == 0:
-            need += 1
         ans += "0" if need > subs[i] else "1"
     return ans
 

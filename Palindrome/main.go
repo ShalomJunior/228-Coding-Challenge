@@ -31,9 +31,6 @@ func checker(s string, starts []int, ends []int, subs []int) string {
 			}
 		}
 		need := odds / 2
-		if odds%2 == 1 && (r-l+1)%2 == 0 {
-			need++
-		}
 		if need > subs[i] {
 			ans += "0"
 		} else {
