@@ -1,3 +1,5 @@
+# Check c++ code for comments 
+
 def checker(s, starts, ends, subs):
     N = 26
     n = len(s)

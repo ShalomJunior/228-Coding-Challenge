@@ -28,6 +28,6 @@ With all that the only thing you need is to check weither this minimum number of
 The problem in this approach is that the time complexity is really bad `O(N * Q)` where N is the length of the string and Q is the number of queries. Technically this would take around 90 seconds to finish if the testcases are strong
 
 **Prefix sum approach**
-The question is how to caclulate for each substring the number of occuring of each character fast ? This can be done with prefix sum. This helps us compute the sum over a substring in O(1) for each chracter with a precompute of O(n). Since the number of characters or letters here is **26** then the time complexity will be multipled by 26 which is still good to pass the testcase. Now our time complexity `O(26 * Q) around O(Q * log(Q))` This is fast enough to pass all test under 1 seconds in (c++)
+The question is how to caclulate for each substring the number of occuring of each character fast ? This can be done with prefix sum. This helps us compute the sum over a substring in O(1) for each chracter with a precompute of O(n). Since the number of characters or letters here is **26** then the time complexity will be multipled by 26 which is still good to pass the testcase. Now our time complexity is `O(26 * Q) around O(Q * log(Q))` This is fast enough to pass all test under 1 seconds in (c++)
 
 If you are not awared of **prefix sum** then check on wikipedia or youtube ....

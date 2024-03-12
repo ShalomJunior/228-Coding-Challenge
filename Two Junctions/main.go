@@ -5,6 +5,11 @@ import (
 	"fmt"
 )
 
+/*
+Not really sure about this implementation of priorityqueue in Go
+Need to ensure it work properly
+*/
+
 type pair struct {
 	first  int
 	second int

@@ -1,5 +1,7 @@
 import heapq
 
+# Check c++ code for comments 
+
 def checker(n, from_, to, w, x, y):
     INF = 2e9
     m = len(from_)

@@ -1,6 +1,9 @@
 import sys
 
 sys.setrecursionlimit(1000005)
+
+# Check c++ code for comments 
+
 def checker(x1, y1, x2, y2):
     N = 1005
     vis = [[False] * N for _ in range(N)]
