@@ -15,7 +15,7 @@ string checker(int x1, int y1, int x2, int y2) {
         */
         if (!vis[x + y][y])go(x + y, y);
         if (!vis[x][y + x])go(x, y + x);
-        };
+    };
     go(x1, y1);
     return vis[x2][y2] ? "YES" : "NO";
 }
